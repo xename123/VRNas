@@ -7986,7 +7986,6 @@
                     const inputItem = button.closest(".subscribe__item");
                     const input = inputItem.querySelector(".subscribe__input");
                     formValidate.validateInput(input);
-                    console.log(formValidate.getErrors(inputItem));
                     if (formValidate.getErrors(inputItem) > 0) setTimeout((() => {
                         alert("Error");
                     }), 0); else {
@@ -7994,6 +7993,7 @@
                         setTimeout((() => {
                             alert("Succesful");
                         }), 0);
+                        input.value = "";
                     }
                 }
                 if (el.closest(".form-contact__button")) {
