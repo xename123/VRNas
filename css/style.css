@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;
+
+400;500;600;700&display=swap);
 @font-face {
   font-family: icons;
   font-display: swap;
@@ -1587,7 +1589,7 @@ div._succesful {
 }
 
 .choose__container_reverse .choose__video {
-  bottom: -1.875rem;
+  bottom: 1.875rem;
   right: 0rem;
 }
 
@@ -5600,6 +5602,10 @@ div._succesful {
     top: 0;
     padding: 0px 0px 0px 0px;
     max-width: 31.25rem;
+  }
+
+  .choose__container_reverse .choose__video {
+    bottom: -1.875rem;
   }
 
   .reviews__top {
